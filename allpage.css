@@ -1,0 +1,24 @@
+.homepage {
+    background-color: blue;
+    color: white;
+}
+.bluetext {
+    color: blue;
+}
+.divall {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;
+}
+label {
+    display: block;
+}
+.row {
+    display: flex;
+    gap: 30px;
+    
+}
+#email {
+    width: 362px;
+}
