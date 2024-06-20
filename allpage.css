@@ -1,15 +1,41 @@
+.no-margin {
+    background-color: rgb(6, 168, 243);
+}
+
+.nomargin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 50px;
+    margin: 200px;
+    background-color: blue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .homepage {
     background-color: blue;
     color: white;
+    margin: 0%;
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
 }
 .bluetext {
     color: blue;
+}
+.signup {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin: 0%;
+    background-color: white;
+    padding-left: 50px;
 }
 .divall {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 800px;
 }
 label {
     display: block;
@@ -21,4 +47,21 @@ label {
 }
 #email {
     width: 362px;
+}
+.wel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    height: 40%;
+    background-color: rgb(6, 168, 243);
+    width: 40%;
+    padding: 20px;
 }
